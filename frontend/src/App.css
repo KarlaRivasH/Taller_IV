@@ -1,0 +1,76 @@
+
+/* Estilos generales */
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: block;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #343a40;
+  font-weight: bold;
+}
+
+/* EJERCICIO 4: Estado del API */
+.health-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.health-box {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.health-box h4 {
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.health-box p {
+  font-size: 16px;
+}
+
+.health-ok {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.health-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* EJERCICIO 5: Información de integrantes */
+.integrantes-section {
+  margin-top: 30px;
+}
+
+.integrantes-section h2 {
+  color: #343a40;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #343a40;
+}
